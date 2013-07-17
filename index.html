@@ -6,14 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap-combined.no-icons.min.css">
     <link rel="stylesheet" href="font-awesome.css">
-    <link rel="stylesheet" href="social-buttons.css">    
-    <link rel="stylesheet" href="main.css"> 
+    <link rel="stylesheet" href="social-buttons.css">     
     <script src="jquery.js"></script>
     <script src="bootstrap.js"></script>
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" 
           rel="stylesheet" type="text/css">
-  </head>
+<style type="text/css">
+
+  	/* Large desktop */
+		@media (min-width: 980px) {
+			body { /* 1 */
+				padding-top: 60px;
+			}
+			.linediv-l {
+				border-right: 1px white solid;
+			} /* 4 */
+			.linediv-r {
+				border-left: 1px white solid;
+			}
+		}
+
+		/* landscape phones & down */
+		@media (max-width: 480px) {
+			.copy {
+				padding: 2.5% 10%;
+			}
+			.linediv-l {
+				border-bottom: 1px white solid;
+			} /* 4 */
+			.linediv-r {
+				border-top: 1px white solid;
+			}
+		}
+
+		/* All form factors */
+
+		/* Main body & headings */
+
+			body {
+				font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+			} /* 2 */
+			.heading, .subheading {
+				font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+				text-align: center;
+			}
+			p.lead {
+				padding-top: 1.5%;
+				font-size: 24px; /* 2 */
+				line-height: 30px;
+			}
+			p {
+				font-size: 18px;
+				line-height: 24px;
+			}
+
+		/* Video pitch & action*/
+			.pitch {
+				padding: 2.5% 0%;
+			}
+			.order {
+				padding: 2% 0%;
+			} /* 3, 4 */
+			.actions {
+				background-color: #343434;
+				padding: 3% 0%;
+			}
+			.video, .thermometer, .order, .social, .statistics {
+				text-align: center;
+			}
+			.statistics h3, .statistics p {
+				color: white;
+			}
+
+		/* Marketing copy & footer*/
+			.copy {
+				padding-top: 2.5%;
+				padding-bottom: 2.5%; /* 7 */
+				text-align: justify;
+			}
+			.asset {
+				padding: 2.5% 0%;
+			}
+			.footer {
+				color: #cccccc;
+				text-align: center;
+			} /* 9 */
+			.footer p {
+				font-size: 11px;
+			}
+			.footer a {
+				color: #ccccff;
+			}
+		</style>
+
+
+  
+</head>
   <body>
 
     <!-- Mobile-friendly navbar adapted from example. -->
